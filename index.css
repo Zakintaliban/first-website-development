@@ -1,0 +1,17 @@
+body {
+  @import url("https://fonts.googleapis.com/css?family=Oswald&display=swap");
+  background-image: url("Images/background.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+nav {
+  display: flex;
+  list-style-type: none;
+  justify-content: space-evenly;
+  word-spacing: 6px;
+}
+
+nav a {
+  margin: 10px;
+}
