@@ -1,5 +1,9 @@
+* {
+  font-family: "Titillium Web", sans-serif;
+  color: #c4302b;
+}
+
 body {
-  @import url("https://fonts.googleapis.com/css?family=Oswald&display=swap");
   background-image: url("Images/background.png");
   background-size: cover;
   background-repeat: no-repeat;
@@ -9,9 +13,46 @@ nav {
   display: flex;
   list-style-type: none;
   justify-content: space-evenly;
-  word-spacing: 6px;
 }
 
 nav a {
   margin: 10px;
+  text-decoration: none;
+}
+
+.newest-news {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.catch-phrase {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.copyright {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+#title {
+  color: #31b057;
+}
+
+#sidebar {
+  position: relative;
+  overflow: hidden;
+  height: 100px;
+  width: 150px; /* note this */
+}
+#sidebar ul {
+  width: 170px; /* and this */
+  overflow-y: scroll; /* add scrollbar */
+  position: absolute;
+  height: inherit; /* parent height or 100% */
+  background: #ddd;
+}
+
+footer {
+  text-align: center;
 }
