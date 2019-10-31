@@ -32,11 +32,6 @@ section a {
   color: #31b057;
 }
 
-.newest-news a:hover {
-  color: #118ee9;
-  text-decoration: underline;
-}
-
 .catch-phrase {
   display: flex;
   justify-content: space-evenly;
