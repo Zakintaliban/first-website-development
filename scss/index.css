@@ -1,1 +1,110 @@
-/* No CSS *//*# sourceMappingURL=index.css.map */
+* {
+  font-family: "Puritan", sans-serif;
+  color: #c4302b;
+}
+
+body {
+  height: 100%;
+  background-image: url("../Images/background.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+.nav-menu {
+  list-style-type: none;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border: 15px;
+  height: 60px;
+  width: 100%;
+  background-color: #fece00;
+}
+
+.nav-menu .nav-menu-bar {
+  padding: 10px 21px;
+  text-decoration: none;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 30px;
+}
+
+.nav-menu .nav-menu-bar:focus {
+  background-color: #fbb438;
+}
+
+section a {
+  text-decoration: none;
+}
+
+.newest-news {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.newest-news a {
+  color: #31b057;
+}
+
+.catch-phrase {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.copyright {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.title {
+  color: #31b057;
+}
+
+.footer a:hover {
+  color: #118ee9;
+}
+
+#sidebar {
+  position: relative;
+  overflow: hidden;
+  height: 100px;
+  width: 150px;
+  /* note this */
+}
+
+#sidebar ul {
+  width: 170px;
+  /* and this */
+  overflow-y: scroll;
+  /* add scrollbar */
+  position: absolute;
+  height: inherit;
+  /* parent height or 100% */
+  background: #ddd;
+}
+
+footer {
+  text-align: center;
+}
+/*# sourceMappingURL=index.css.map */
