@@ -1,5 +1,5 @@
 * {
-  font-family: "Titillium Web", sans-serif;
+  font-family: "Puritan", sans-serif;
   color: #c4302b;
 }
 
@@ -20,9 +20,21 @@ nav a {
   text-decoration: none;
 }
 
+section a {
+  text-decoration: none;
+}
 .newest-news {
   display: flex;
   justify-content: space-evenly;
+}
+
+.newest-news a {
+  color: #31b057;
+}
+
+.newest-news a:hover {
+  color: #118ee9;
+  text-decoration: underline;
 }
 
 .catch-phrase {
@@ -35,8 +47,12 @@ nav a {
   justify-content: space-evenly;
 }
 
-#title {
+.title {
   color: #31b057;
+}
+
+.footer a:hover {
+  color: #118ee9;
 }
 
 #sidebar {
@@ -55,4 +71,16 @@ nav a {
 
 footer {
   text-align: center;
+}
+
+.nav-menu {
+  display: flex;
+  border: 15px;
+  height: 60px;
+  background-color: #fa9c1d;
+}
+
+.nav-menu-bar {
+  justify-content: center;
+  align-items: center;
 }
